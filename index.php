@@ -21,7 +21,7 @@ $key = $job->{'Records'}[0]->{'s3'}->{'object'}->{'key'};
 $result = $client->putObject(array(
     'Bucket' => $bucket,
     'Key'    => $key,
-    'Body'   => $job
+    'Body'   => "BODY TEXT"
 ));
 
 
