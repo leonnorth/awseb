@@ -8,8 +8,7 @@ use Aws\S3\S3Client;
 $postBody = file_get_contents('php://input');
 
 
-$job = json_decode($postBody);
-
+$job = json_decode($postBody, true);
 // Do some work here with the job
 
 $client = new S3Client([
