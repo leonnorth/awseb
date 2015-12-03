@@ -18,11 +18,11 @@ $client = new S3Client([
 ]);
 
 $bucket = "leontestbucket2";
-$key = 'leon_sqs_notificiation_test1.txt';
+$key = 'leon_sqs_notificiation_test2.txt';
 $result = $client->putObject(array(
     'Bucket' => $bucket,
     'Key'    => $key,
-    'Body'   => "leon_sqs_notificiation_test1"
+    'Body'   => $job
 ));
 
 

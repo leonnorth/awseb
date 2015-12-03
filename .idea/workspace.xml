@@ -25,8 +25,8 @@
       <file leaf-file-name="worker.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/worker.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.515625">
-              <caret line="33" column="1" selection-start-line="6" selection-start-column="2" selection-end-line="33" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.3125">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -231,8 +231,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/worker.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.515625">
-          <caret line="33" column="1" selection-start-line="6" selection-start-column="2" selection-end-line="33" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.3125">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding />
         </state>
       </provider>
