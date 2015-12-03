@@ -8,7 +8,7 @@ use Aws\S3\S3Client;
 $postBody = file_get_contents('php://input');
 
 
-$job = json_decode($postBody, true);
+$job = json_decode($postBody);
 // Do some work here with the job
 
 $client = new S3Client([
@@ -17,7 +17,7 @@ $client = new S3Client([
 ]);
 
 $bucket = "leontestbucket2";
-$key = 'leon_sqs_notificiation_test2.txt';
+$key = $job->{'Records'}[0]->{'s3'}->{'object'}->{'key'};
 $result = $client->putObject(array(
     'Bucket' => $bucket,
     'Key'    => $key,
